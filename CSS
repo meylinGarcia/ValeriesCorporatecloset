@@ -1,0 +1,122 @@
+body {
+    font-family: 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+    background-image: url('https://www.transparenttextures.com/patterns/paisley.png');
+    background-size: cover;
+}
+
+header {
+    background-color: #ffc0cb;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+    background-image: url('https://www.transparenttextures.com/patterns/broken-noise.png');
+}
+
+header h1 {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    font-size: 3em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-family: 'Georgia', serif;
+}
+
+section {
+    padding: 40px;
+}
+
+section#home {
+    background-color: #ffebcd;
+    background-image: url('https://www.transparenttextures.com/patterns/groovepaper.png');
+    text-align: center;
+    padding: 60px;
+}
+
+section#shop {
+    background-color: #e0ffff;
+    background-image: url('https://www.transparenttextures.com/patterns/flower.png');
+}
+
+.product-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product {
+    background-color: #fff0f5;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    width: 200px;
+    transition: transform 0.3s;
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
+
+.product img {
+    width: 100%;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    background-image: url('https://www.transparenttextures.com/patterns/paper-fibers.png');
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: 'Georgia', serif;
+}
+
+form input, form textarea, form button {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 80%;
+}
+
+form button {
+    background-color: #ff69b4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 40%;
+    font-size: 1.2em;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #ff1493;
+}
